@@ -1,0 +1,6 @@
+<h3>Create a delivery</h3>
+<%= form_with url: "/delivery", method: "post" do |form| %>
+  <%= form.text_field :number_tracking, placeholder: "number tracking" %>
+
+  <%= form.submit %>
+<% end %>
